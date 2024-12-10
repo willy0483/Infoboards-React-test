@@ -1,0 +1,34 @@
+
+@mixin resetList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin resetA{
+    text-decoration: none;
+}
+
+@mixin resetGlobal {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin reset{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin hiddenScroll {
+    body::-webkit-scrollbar {
+        width: 0em;
+      }
+}
+
+@mixin imageCover {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
