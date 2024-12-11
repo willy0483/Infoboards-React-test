@@ -5,21 +5,21 @@ const getDayWeek = () =>{
     const weekday = ["Søndag", "Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag"];        
     const d = new Date();
     let day = weekday[d.getDay()];
-    console.log(day);
+    // console.log(day);
     return day;
 }
 
 const getdate = () => {
     const d = new Date();
     let day = d.getDate();
-    console.log(day);
+    // console.log(day);
     return day;
 }
 
 const getMonth = () => {
     const month = ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"];        const d = new Date();
     let name = month[d.getMonth()];
-    console.log(name);
+    // console.log(name);
     return name
     
 }
